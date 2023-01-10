@@ -12,7 +12,7 @@ pymodaq_plugins_newport (Newport Instruments)
 .. image:: https://github.com/PyMoDAQ/pymodaq_plugins_newport/workflows/Upload%20Python%20Package/badge.svg
     :target: https://github.com/PyMoDAQ/pymodaq_plugins_newport
 
-PyMoDAQ plugin for instruments from Newport (Conex, ESP100, AG-CU8...)
+PyMoDAQ plugin for instruments from Newport (SMC100, Conex, ESP100, AG-CU8...)
 
 
 Authors
@@ -20,6 +20,9 @@ Authors
 
 * Sebastien J. Weber
 * David Bresteau (david.bresteau@cea.fr)
+* Tom Radford
+* Idris Ajia
+* Luke Burke
 
 Instruments
 ===========
@@ -28,6 +31,7 @@ Below is the list of instruments included in this plugin
 Actuators
 +++++++++
 
+* **Newport_SMC100**: SMC100 motion controllers
 * **Conex**: Piezo actuators from the CONEX-AGAP series"
 * **Newport_ESP100**: ESP100 motion controllers
 * **AgilisSerial**: for controllers AG-UC8 and AG-UC2 tested with motorized mounts AG-M100N (no encoder)
